@@ -14,8 +14,7 @@ Returns all teachers registered in the database.
 
 #### Parameters
 
--   `parameter1`: Description of parameter 1.
--   `parameter2`: Description of parameter 2.
+No parameters needed.
 
 #### Response
 
@@ -28,4 +27,25 @@ Returns all teachers registered in the database.
         "updated_at": "2023-10-17T21:58:25.000000Z"
     }
 ]
+```
+
+### GET /api/teachers/:id
+
+#### Description
+
+Returns a teacher registered in the database by his id.
+
+#### Parameters
+
+-   `id`: teacher id.
+
+#### Response
+
+```json
+    {
+        "id": 1,
+        "name": "Mr. Leland Waelchi",
+        "created_at": "2023-10-17T21:58:25.000000Z",
+        "updated_at": "2023-10-17T21:58:25.000000Z"
+    }
 ```
