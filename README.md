@@ -42,10 +42,39 @@ Returns a teacher registered in the database by his id.
 #### Response
 
 ```json
-    {
-        "id": 1,
-        "name": "Mr. Leland Waelchi",
-        "created_at": "2023-10-17T21:58:25.000000Z",
-        "updated_at": "2023-10-17T21:58:25.000000Z"
-    }
+{
+    "id": 1,
+    "name": "Mr. Leland Waelchi",
+    "created_at": "2023-10-17T21:58:25.000000Z",
+    "updated_at": "2023-10-17T21:58:25.000000Z"
+}
+```
+
+### POST /api/teachers
+
+#### Description
+
+Returns a teacher registered in the database by his id.
+
+#### Parameters
+
+No parameters needed.
+
+#### Resquest
+
+```json
+{
+    "name": "Mr. Leland Waelchi",
+}
+```
+
+#### Response
+
+```json
+{
+    "name": "Mr. Leland Waelchi",
+    "updated_at": "2023-10-18T17:21:21.000000Z",
+    "created_at": "2023-10-18T17:21:21.000000Z",
+    "id": 22
+}
 ```
